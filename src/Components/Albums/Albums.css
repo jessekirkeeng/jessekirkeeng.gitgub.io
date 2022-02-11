@@ -1,0 +1,77 @@
+.following-albums-container {
+  color: #a5a58d;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin-left: 20vw;
+  flex-wrap: wrap;
+  height: 60vh;
+  justify-content: flex-start;
+}
+
+.category {
+  color: white;
+  margin-left: 22vw;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.album-preview {
+  text-decoration: none;
+}
+
+.following-albums-info {
+  background-color: #1b1a1a;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.following-albums-info:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.album-image {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 2%;
+}
+
+.album-image:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 8px black;
+}
+
+.album-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.album-name:hover {
+  cursor: pointer;
+}
+
+.album-artists-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: #a5a58d;
+}
+
+.album-artists-name:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}

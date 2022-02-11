@@ -1,0 +1,25 @@
+.top-result {
+  width: 23vw;
+  height: 20vh;
+  background-color: rgb(44, 44, 44);
+  padding: 1vw;
+  border-radius: 5px 5px;
+}
+
+.top-result:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+.top-image {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.top-text {
+  color: white;
+  line-height: 1.5vh;
+}
+
+.top-result-link {
+  text-decoration: none;
+}

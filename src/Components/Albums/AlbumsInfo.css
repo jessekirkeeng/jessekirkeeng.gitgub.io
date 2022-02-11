@@ -1,0 +1,125 @@
+.album-tracks-container {
+  width: 78vw;
+  margin-left: 22vw;
+  display: flex;
+  color: white;
+  margin-top: 10vh;
+  height: 100vh;
+}
+
+.track-container-album-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-radius: 25px;
+  height: 100px;
+  align-items: center;
+  background-color: #1b1a1a;
+}
+
+.track-container-album-info:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.track-number-album-page {
+  padding-left: 5px;
+}
+
+.album-tracks {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.album-info {
+  width: 78vw;
+  margin-top: 10vh;
+  height: 20vh;
+}
+
+.album-info-image-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.album-image-info-page {
+  width: 250px;
+  height: 250px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 5px;
+}
+
+.album-image-info-page:hover {
+  cursor: default;
+}
+
+.album-main {
+  margin-left: 5%;
+  margin-top: 8%;
+}
+
+.category-album {
+  font-weight: bold;
+}
+
+.album-name-info-page {
+  font-weight: bold;
+  font-size: 200%;
+  margin-top: -4%;
+}
+
+.album-name-info-page:hover {
+  cursor: default;
+}
+
+.artist-name-header {
+  font-weight: bold;
+  margin-top: -8%;
+}
+
+.artist-name-header:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.bar-above-tracks {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #a5a58d;
+  margin-top: 20vh;
+}
+
+.hash {
+  margin-left: 2vw;
+}
+
+.title {
+  margin-left: 2vw;
+}
+
+.track-title {
+  margin-left: 3vw;
+  font-weight: bold;
+}
+
+.artist-name {
+  justify-content: flex-start;
+  margin-left: 3vw;
+  margin-top: -2%;
+}
+
+.artist-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.duration {
+  margin-left: 60vw;
+  position: absolute;
+  right: 5%;
+}

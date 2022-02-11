@@ -1,0 +1,52 @@
+.merch-container {
+  width: 75vw;
+  margin-left: 18vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #a5a58d;
+  height: 100vh;
+  margin-top: 30vh;
+}
+
+.merch-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.merch-name-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.merch-product-container {
+  width: 220px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b1a1a;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.merch-product-container:hover {
+  cursor: pointer;
+  background-color: #463f3a;
+  color: white;
+}
+
+.merch-product-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merch-product-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

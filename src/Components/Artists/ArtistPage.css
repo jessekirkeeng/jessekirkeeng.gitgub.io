@@ -1,0 +1,182 @@
+.artist-page-header {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  height: 30vh;
+  width: 77vw;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+}
+
+.artist-header-name {
+  font-size: 4em;
+  margin-left: 2vw;
+}
+
+.artist-icon {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  margin-left: 2vw;
+}
+
+.top-tracks-container {
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 22%;
+  width: 75vw;
+}
+
+.top-track {
+  display: flex;
+  border-radius: 5px;
+}
+
+.top-track:hover {
+  background-color: #463f3a;
+}
+
+.top-track-1 {
+  display: flex;
+  margin: 1vh 0 1vh 2vw;
+  width: 5vw;
+  justify-content: space-between;
+}
+
+.top-track-img {
+  height: 50px;
+}
+
+.top-track-name {
+  margin-left: 1vw;
+}
+
+.top-track-duration {
+  position: absolute;
+  right: 2%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.artist-albums {
+  color: white;
+  position: absolute;
+  top: 105%;
+  left: 22%;
+}
+
+.artist-album-info {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 78vw;
+  margin-bottom: 10vh;
+  justify-content: space-evenly;
+  margin-left: -2vw;
+}
+
+.artist-album-container {
+  background-color: #1b1a1a;
+  width: 11vw;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.artist-album-name {
+  width: 12vw;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.artist-album-image {
+  height: 175px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px black;
+}
+
+
+.artist-album-container:hover {
+  background-color: #463f3a;
+}
+
+.related-artists {
+  color: white;
+  position: absolute;
+  top: 150%;
+  height: 50vh;
+  left: 22%;
+}
+
+.related-artist-image {
+  height: 175px;
+  max-width: 175px;
+  border-radius: 50%;
+}
+
+.top-track-index:hover {
+  cursor: pointer;
+}
+
+.play-button {
+  height: 7vh;
+  width: 7vw;
+  color: #1D8954;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.settings {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  width: 20vw;
+  margin-left: -2vw;
+}
+
+.follow-button {
+  font-weight: bold;
+  height: 3.75vh;
+  width: 5vw;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 8%;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  border: 1px solid white;
+}
+
+.following-button {
+  font-weight: bold;
+  height: 3.75vh;
+  width: 7vw;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8%;
+  cursor: pointer;
+}
+
+.track-play-icon {
+  height: 5.5vh;
+  width: 5.5vw;
+  position: absolute;
+  left: -0.1vw;
+}

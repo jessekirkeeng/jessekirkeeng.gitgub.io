@@ -1,0 +1,23 @@
+.search-results {
+  color: white;
+  position: absolute;
+  top: 7%;
+  left: 22%;
+  height: 150vh;
+}
+
+.featuring-text {
+  margin-top: 5vh;
+}
+
+.featuring-section {
+  display: flex;
+  margin-left: -1vw;
+}
+
+.search-album-name {
+  width: 9vw;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

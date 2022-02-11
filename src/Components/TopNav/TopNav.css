@@ -1,0 +1,96 @@
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 19vw;
+  background-color: #252422;
+  width: 81vw;
+  height: 7vh;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  z-index: 10;
+}
+
+.arrow-btn {
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.arrow-btn:hover {
+  cursor: pointer;
+}
+
+.back-forward-arrows {
+  margin-left: 20px;
+}
+
+.user-name {
+  position : fixed;
+  right: 40px;
+}
+
+.user-btn {
+  border: 1px solid black;
+  border-radius: 25px;
+  color: #a5a58d;
+  font-weight: bold;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+}
+
+.user-btn:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.search-input-container {
+  margin-left: 30px;
+}
+
+.search-input {
+  width: 300px;
+  height: 30px;
+  margin-top: 0;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+.music-btn {
+  background-color: #252422;
+  color: #a5a58d;
+  font-weight: bold;
+  border: 1px solid #252422;
+}
+
+.music-btn:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.music-btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  padding-left: 30px;
+}
+
+.arrows-and-music-btns {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+.search-icon {
+  position: relative;
+  left: -10%;
+}
+
+.search-icon:hover {
+  cursor: pointer;
+}

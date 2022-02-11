@@ -1,0 +1,70 @@
+
+.saved-songs {
+  background-color: #1b1a1a;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+
+.saved-songs:hover {
+  background-color: #463f3a;
+}
+
+.liked-songs {
+  color: white;
+  font-size: 17px;
+}
+
+.liked-songs-text {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 22px;
+}
+
+.main {
+	color: white;
+  width: 78vw;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  flex-wrap: wrap;
+	text-overflow: clip;
+  justify-content: flex-start;
+}
+
+.liked-song-img {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 2%;
+}
+
+.liked-link {
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.liked-songs-render {
+  margin-top: 35vh;
+  margin-left: 22vw;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,70 @@
+.map{
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.render {
+  margin-top: 35vh;
+  margin-left: 22vw;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 2%;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.text:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+.render-text {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.render-maps {
+  color: #a5a58d;
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+ 
+  flex-wrap: wrap;
+  /* padding-top: 30%; */
+  height: 60vh;
+  justify-content: flex-start;
+}
+.sugggested-songs-info {
+  background-color: #1b1a1a;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+}
+.sugggested-songs-info:hover {
+  background-color: #463f3ab4;
+  cursor: pointer;
+}

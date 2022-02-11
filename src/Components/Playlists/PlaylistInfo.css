@@ -1,0 +1,104 @@
+.playlist-info {
+  color: white;
+}
+
+.track-container {
+  display: flex;
+  width: 77vw;
+  justify-content: space-between;
+  padding: 1%;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-left: 1vw;
+  border-radius: 5px;
+}
+
+.track-container:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.track-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-image-main {
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+  line-height: 0;
+  margin-left: -7vw;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.playlist {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.column-headers {
+  display: flex;
+  flex-direction: row;
+  width: 77vw;
+  position: absolute;
+  top: 54%;
+  left: 20%;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.329);
+  margin-left: 1vw;
+}
+
+.number-title {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  width: 5vw;
+  justify-content: space-between;
+  margin-left: -1.5vw;
+}
+
+.album-date-duration {
+  list-style: none;
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 2vw;
+}
+
+#playlist-date {
+  margin-left: 13vw;
+}
+
+.list-album-cover {
+  margin-right: 1vw;
+}
+
+.list-album-name {
+  width: 15vw;
+  margin-left: -3vw;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.list-album-duration {
+  width: 5vw;
+}
+
+.playlist-artist-name {
+  text-decoration: none;
+  color: white;
+}
+
+.playlist-artist-name:hover {
+  text-decoration: underline;
+}

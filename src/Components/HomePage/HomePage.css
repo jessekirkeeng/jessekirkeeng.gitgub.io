@@ -1,0 +1,145 @@
+.home-page {
+  margin-top: 35vh;
+  margin-left: 22vw;
+  width: 80vw;
+  height: 100vh;
+}
+
+.home-page-link {
+  text-decoration: none;
+}
+
+.home-page-greeting {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.home-page-user-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 1% 0 0 1%;
+}
+
+.home-page-playlist-preview {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1b1a1a;
+  border-radius: 5px;
+  margin: 10px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.playlist-link-home-page {
+  text-decoration: none;
+  color: white;
+  height: 80px;
+}
+
+.home-page-following-artists {
+  height: 80px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  background-color: #1b1a1a;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.home-page-shows {
+  background-color: #1b1a1a;
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.home-page-shows:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.home-page-playlist-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.home-page-show-image {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 5px;
+}
+
+.home-page-artist-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.home-page-playlist-preview:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.home-page-following-artists:hover {
+  background-color: #463f3a;
+  cursor: pointer;
+}
+
+.home-page-name {
+  margin-left: 13px;
+  font-size: 15px;
+}
+
+.home-page-show-name {
+  margin-left: 13px;
+  font-size: 15px;
+}
+
+.home-page-artist-info {
+  display: flex;
+  align-items: center;
+}
+
+.home-page-shows-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.category-home-page {
+  color: white;
+}
+
+.home-page-recent {
+  color: white;
+  margin-top: 32vh;
+  height: 65vh;
+}
+
+.recent-album-image {
+  height: 170px;
+  box-shadow: 5px 5px 8px black;
+  border-radius: 5px;
+}
+
+.recent-track-name {
+  width: 9vw;
+  white-space: pre;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
